@@ -4,11 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Disney api</title>
+    <title>Disney Api</title>
     <link rel="stylesheet" href="./assets/css/main.css">
     <script src="./assets/js/disneyApi.js" defer></script>
 </head>
 <body>
-    <div id="app"></div>
+    <header><h1>Disney Sjov</h1></header>
+    
+    <main>
+        <form>
+            <input type="text" name="search input" id="searchInput" placeholder="Micky Mouse">
+            <button id="searchButton">Søg</button><br>
+            <button id="showAllButton">Vis alle Disney's figure</button>
+        </form>
+
+        <section id="app"></section>
+    </main>
+    
+    <footer><p>Data fra disney URL: https://disneyapi.dev/</p></footer>
 </body>
 </html>

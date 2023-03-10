@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header, main, footer{
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+#searchInput{
+    padding: 3px;
+    border-radius: 10px;
+}
