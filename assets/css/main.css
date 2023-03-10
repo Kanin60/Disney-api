@@ -13,3 +13,7 @@ header, main, footer{
     padding: 3px;
     border-radius: 10px;
 }
+
+.resultButtonClass{
+    display: block;
+}
